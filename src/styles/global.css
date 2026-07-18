@@ -1,0 +1,36 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --color-primary-green: #B0CB1F;
+    --color-primaty-green-light: rgba(177, 203, 31, 0.1);
+    --color-secondary-white: #FFFFFF;
+    --color-secondary-black: #333231;
+    --color-blue: #2DA5F3;
+    --color-yellow: #EFD33D;
+    --color-orange: #FA8232;
+    --color-black-2: #000000;
+    --color-gray: #5F6C72;
+    --color-gray-2: #191C1F;
+
+    --font-size-h1: 60px;
+    --font-size-h2: 48px;
+    --font-size-h3: 40px;
+    --font-size-h4: 25px;
+    --font-size-body: 16px;
+    --font-size-button: 16px;
+
+    --font-weight-h1: 700;
+    --font-weight-h2: 700;
+    --font-weight-h3: 700;
+    --font-weight-h4: 700;
+    --font-weight-body: 400;
+    --font-weight-button: 500;
+
+    --font-family: "Inter", sans-serif;
+}
