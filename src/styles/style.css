@@ -1,1 +1,53 @@
 @import url("./global.css");
+
+/* --- HEADER --- */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 425px;
+    padding: 20px 0;
+    background-color: var(--color-secondary-white);
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+header nav ul li a{
+    color: var(--color-black-2);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    font-family: var(--font-family);
+    text-decoration: none;
+        transition: 0.2s;
+}
+
+header nav ul li a:hover{
+    color: var(--color-primary-green);
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 12px 30px;
+    border-radius: 15px 3px 15px 3px;
+    background-color: var(--color-primary-green);
+    color: var(--color-secondary-black);
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+    font-family: var(--font-family);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    /* background-color: #859917; */
+    background-color: #c7e22c;
+    color: var(--color-black-2);
+}
