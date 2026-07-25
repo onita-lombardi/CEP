@@ -24,6 +24,7 @@
     --font-size-h4: 25px;
     --font-size-body: 16px;
     --font-size-button: 16px;
+    --font-size-caption: 14px;
 
     --font-weight-h1: 700;
     --font-weight-h2: 700;
@@ -31,6 +32,7 @@
     --font-weight-h4: 700;
     --font-weight-body: 400;
     --font-weight-button: 500;
+    --font-weight-caption: 600;
 
     --font-family: "Inter", sans-serif;
 }
