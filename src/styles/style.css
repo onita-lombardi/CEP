@@ -34,6 +34,7 @@ header nav ul li a:hover{
 
 .btn{
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 12px 30px;
     border-radius: 15px 3px 15px 3px;
@@ -50,4 +51,144 @@ header nav ul li a:hover{
     /* background-color: #859917; */
     background-color: #c7e22c;
     color: var(--color-black-2);
+}
+
+/* --- MAIN HOME --- */
+
+.main-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.main-home-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-reviews-home{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.container-stars{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.num-stars{
+    color: var(--gray--color-gray-2);
+    font-size: var(--font-size-caption);
+    font-weight: var(--font-weight-caption);
+    font-family: var(--font-family);
+}
+
+.num-reviews{
+    color: var(--color-gray);
+    font-size: var(--font-size-caption);
+    font-weight: var(--font-weight-body);
+    font-family: var(--font-family);
+}
+
+.main-home-content h1{
+    color: var(--color-gray-2);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    font-family: var(--font-family);
+    width: 499px;
+}
+
+.prices-home{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.price-blue{
+    color: var(--color-blue);
+    font-size: var(--font-size-h4);
+    font-weight: var(--font-weight-h4);
+    font-family: var(--font-family);
+}
+
+.price-gray{
+    color: var(--color-gray);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    font-family: var(--font-family);
+    text-decoration: line-through;
+}
+
+.price-yellow{
+    display: flex;
+    padding: 5px 10px;
+    color: var(--color-gray-2);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-h4);
+    font-family: var(--font-family);
+    background-color: var(--color-yellow);
+    border-radius: 2px;
+}
+
+.form-main-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.form-main-home fildset{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-main-home fieldset legend{
+    color: var(--color-gray-2);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    font-family: var(--font-family);
+    height: 19px;
+}
+
+.form-main-home fieldset .form-main-color{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 44px;
+}
+
+.form-main-home fieldset .form-main-color input[type="radio"] {
+    display: none;
+}
+
+.color{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.color1{
+    background-color: #B1B5B8;
+    
+}
+
+.color2{
+    background-color: #E0E1E1;
+}
+
+.form-main-home fieldset .form-main-color input[type="radio"]:checked + .color {
+    outline: 2px solid var(--color-orange);
+    outline-offset: 4px;
+}
+
+.btn-add-carrinho{
+    width: 224px;
+    cursor: pointer;
 }
