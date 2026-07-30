@@ -60,6 +60,7 @@ header nav ul li a:hover{
     justify-content: center;
     align-items: center;
     gap: 60px;
+    padding: 60px 0 31px 0;
 }
 
 .main-home-content{
@@ -191,4 +192,64 @@ header nav ul li a:hover{
 .btn-add-carrinho{
     width: 224px;
     cursor: pointer;
+}
+
+/* --- SECTION-INFO --- */
+
+.section-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 60px 0;
+    background-color: var(--color-primaty-green-light);
+}
+
+.section-info h2{
+    color: var(--color-black-2);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+    font-family: var(--font-family);
+}
+
+.form-info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+
+.form-info fieldset{
+    display: grid;
+    grid-template-columns: 249px 185px 249px;
+    gap: 16px 15px;
+}
+
+.campo-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.campo-info label{
+    color: var(--color-black-2);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    font-family: var(--font-family);
+}
+
+.campo-info input{
+    padding: 10px;
+    height: 41px;
+    border-radius: 5px;
+    border: 1px solid var(--color-black-2);
+    background-color: transparent;
+    color: var(--color-black-2);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    font-family: var(--font-family);
+}
+
+.bairro{
+    width: 249px;
 }
