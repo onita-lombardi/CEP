@@ -253,3 +253,102 @@ header nav ul li a:hover{
 .bairro{
     width: 249px;
 }
+
+/* --- FOOTER --- */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 323px;
+    padding: 60px 0;
+}
+
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.container-copyright{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container-copyright p{
+    color: var(--color-secondary-black);
+    font-size: var(--font-size-caption);
+    font-weight: var(--font-weight-body);
+    font-family: var(--font-family);
+}
+
+.social-medias{
+    display: flex;
+    gap: 16px;
+}
+
+.social-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 7.47px; */
+    width: 32px;
+    height: 32px;
+    border-radius: 30px;
+    background-color: var(--color-secondary-black);
+    box-shadow: 0 4px 14px 0px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
+.social-item:hover{
+    background-color: var(--color-gray-2);
+    box-shadow: 0 4px 14px 0px #b1cb1f72;
+    transform: translateY(-10px);
+}
+
+.footer-container-info{
+    display: flex;
+    justify-content: start;
+    gap: 60px;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-info h2{
+    color: var(--color-black-2);
+    font-size: var(--font-size-h4);
+    font-weight: var(--font-weight-h4);
+    font-family: var(--font-family);
+}
+
+.footer-info ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+}
+
+.footer-info ul li{
+    color: var(--color-black-2);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    font-family: var(--font-family);
+}
+
+.footer-info ul li a{
+    color: var(--color-black-2);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    font-family: var(--font-family);
+    text-decoration: none;
+}
+
+.footer-info ul li a:hover{
+    color: var(--color-primary-green);
+}
