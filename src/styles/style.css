@@ -352,3 +352,103 @@ footer{
 .footer-info ul li a:hover{
     color: var(--color-primary-green);
 }
+
+/* --- Responsividade --- */
+
+@media (max-width: 1290px) {
+    header{
+        gap: 340px;
+    }
+
+    .main-home-content h1{
+        width: 430px;
+    }
+}
+
+@media (max-width: 884px){
+    header{
+        gap: 150px;
+    }
+
+    .main-home-content h1{
+        width: 400px;
+    }
+
+    .img-main-home{
+        width: 420px;
+    }
+
+    footer{
+        gap: 50px;
+    }
+
+    .footer-container-info{
+        gap: 30px;
+    }
+
+    .footer-info h2{
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    header{
+        justify-content: flex-end;
+        padding: 20px;
+    }
+
+    header img{
+        display: none;
+    }
+
+    header nav ul{
+        display: none;
+    }
+
+    .main-home{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .main-home-content{
+        align-items: center;
+    }
+
+    .main-home-content h1{
+        text-align: center;
+    }
+
+    .form-main-home{
+        align-items: center;
+    }
+
+    .form-info fieldset{
+        grid-template-columns: 300px; 
+    }
+
+    .bairro{
+        width: 300px;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer-copyright{
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-container-info{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-info h2{
+        width: 200px;
+    }
+
+    
+}
