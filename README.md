@@ -9,7 +9,7 @@
  <a href="#-layout">Layout</a> • 
  <a href="#-como-executar-o-projeto">Como executar</a> • 
  <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#️-autor">Autor</a>
+ <a href="#-autor">Autor</a>
 </p>
 
 ## 📄 Descrição do entregável
@@ -55,7 +55,7 @@ As seguintes tecnologias foram usadas no desenvolvimento do projeto:
 
 #### **Prototipação** ([Figma](https://www.figma.com/))
 
-## 🦸‍♀️ Autor
+## 🦸 Autor
 
 <a href="https://www.linkedin.com/in/onita-lombardi">Onita Lombardi</a>
 
